@@ -1,0 +1,449 @@
+* {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         background: #1F242D;
+         transition: all 0.5s linear;
+}
+
+h1 {
+         color: white;
+}
+
+header {
+         height: 70px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         background: #1F242D;
+}
+
+nav {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         width: 700px;
+}
+
+a {
+         transition: all 0.4s linear;
+         text-decoration: none;
+         color: white;
+}
+
+a:hover {
+         color: #00EEFF;
+}
+
+span {
+         background: none;
+         color: #00EEFF;
+}
+
+p {
+         background: none;
+         color: white;
+}
+
+
+.h2 {
+         margin-top: 5px;
+         padding-left: 15px;
+         font-size: 49.3px;
+         font-weight: 700;
+         line-height: 64.06px;
+         text-align: left;
+}
+
+.paragrf {
+         margin-top: 5px;
+         font-size: 14.1px;
+         font-weight: 400;
+         line-height: 21.15px;
+         text-align: left;
+
+}
+
+.tepa {
+         margin-top: 10px;
+         font-size: 28.2px;
+         font-weight: 700;
+         line-height: 42.3px;
+         text-align: left;
+}
+
+.h6 {
+         margin-top: 5px;
+         font-size: 28.2px;
+         font-weight: 700;
+         line-height: 42.3px;
+         text-align: left;
+}
+
+.box {
+         padding: 0px 15px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         height: 580px;
+}
+
+.btn1 {
+         width: 176.59px;
+         height: 45px;
+         background: none;
+         color: white;
+         font-size: 15px;
+         padding: 11px 28px 11px 28px;
+         border-radius: 40px;
+         border: 2px dashed #00EEFF;
+         margin-top: 20px;
+         transition: all 0.4s linear;
+         cursor: pointer;
+}
+
+.btn2 {
+         margin: auto;
+         width: 176.59px;
+         height: 45px;
+         background: none;
+         color: white;
+         font-size: 15px;
+         padding: 11px 28px 11px 28px;
+         border-radius: 40px;
+         border: 2px dashed #00EEFF;
+         margin-top: 20px;
+         transition: all 0.4s linear;
+         cursor: pointer;
+}
+
+.btn1:hover {
+         box-shadow: 0px 0px 10px 0px #00EEFF;
+         background: #00EEFF;
+         color: black;
+}
+
+.btn2:hover {
+         box-shadow: 0px 0px 10px 0px #00EEFF;
+         background: #00EEFF;
+         color: black;
+}
+
+.icon {
+         display: flex;
+         justify-content: space-around;
+         width: 200px;
+         margin-top: 20px;
+}
+
+.box2 {
+         height: 750px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
+}
+
+.card {
+         width: 380.27px;
+         height: 369px;
+         border: 2px solid #1F242D;
+         border-radius: 20px;
+         border: none;
+         background: #323946;
+         border-radius: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         text-align: center;
+}
+
+.cards {
+         width: 380.27px;
+         height: 369px;
+         border: 2px solid #1F242D;
+         border-radius: 20px;
+         border: none;
+         background: #323946;
+         border-radius: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         text-align: center;
+}
+
+.html {
+         background: none;
+}
+
+.elon {
+         margin-top: 20px;
+         font-size: 26px;
+         font-weight: 700;
+         line-height: 39px;
+         text-align: center;
+         margin-bottom: 10px;
+}
+
+main {
+         background: #323946;
+         height: 900px;
+}
+
+.bir {
+         display: flex;
+
+}
+
+.ikki {
+         display: flex;
+
+}
+
+.main {
+         background: none;
+         margin-left: 120px;
+         padding-top: 30px;
+}
+
+.abslut {
+         background: none;
+         color: white;
+         font-size: 45px;
+         font-weight: 700;
+         line-height: 67.5px;
+         text-align: center;
+         padding-top: 30px;
+
+}
+
+.bir {
+         background: none;
+         margin-top: 80px;
+}
+
+.ikki {
+         margin-top: 80px;
+         background: none;
+}
+
+.dilwod {
+         background: none;
+         color: white;
+         font-size: 45px;
+         font-weight: 700;
+         text-align: center;
+}
+
+.komp {
+         margin: 0px 20px;
+         box-shadow: 0px 0px 10px 0px #1F242D;
+         border-radius: 20px;
+
+}
+
+.kompp {
+         margin: 0px 20px;
+         box-shadow: 0px 0px 10px 0px #1F242D;
+         border-radius: 20px;
+}
+
+input {
+         padding-left: 10px;
+         margin-left: 4px;
+         width: 333px;
+         height: 55px;
+         background: #323946;
+         border-radius: 8px;
+         border: none;
+}
+
+textarea {
+         width: 680px;
+         border: none;
+         height: 280px;
+         background: #323946;
+         border-radius: 8px;
+
+
+}
+
+.box5 {
+         flex-direction: column;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 867px;
+}
+
+.box6 {
+         margin-top: 30px;
+         justify-content: space-around;
+         width: 700px;
+         height: 502px;
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+}
+
+.btn3 {
+         width: 40px;
+         height: 40px;
+         background: none;
+         border-radius: 8px;
+         border: 2px dashed #00EEFF;
+         color: white;
+}
+
+footer {
+         height: 80px;
+         background: #323946;
+         display: flex;
+         justify-content: space-between;
+         padding: 0px 40px;
+         align-items: center;
+}
+
+.btn3:hover {
+         background: #00EEFF;
+         border: none;
+}
+
+h3 {
+         background: none;
+         color: white;
+}
+
+.menu {
+         display: none;
+}
+
+@media(max-width:1276px) {
+         nav {
+                  display: none;
+         }
+
+         header {
+                  padding: 0px 50px;
+                  display: flex;
+                  justify-content: space-between;
+         }
+
+         .box {
+
+                  margin-top: 50px;
+                  flex-direction: column;
+         }
+
+
+
+         .right img {
+                  width: 400px;
+         }
+
+         .menu {
+                  display: block;
+         }
+
+         .cards {
+                  width: 831px;
+                  margin-bottom: 100px;
+         }
+
+         .box2 {
+                  height: 1420px;
+
+         }
+
+         .card {
+                  margin-top: 400px;
+         }
+
+         main {
+                  height: 1300px;
+         }
+
+         .main {
+                  padding: 0px 10px;
+                  display: flex;
+                  justify-content: center;
+         }
+
+         .bir {
+
+                  height: 600px;
+                  flex-direction: column;
+         }
+
+         .ikki {
+                  height: 600px;
+                  flex-direction: column;
+         }
+
+         .komp {
+                  width: 90%;
+                  margin-top: 20px;
+         }
+
+         .kompp {
+                  width: 90%;
+                  margin-top: 20px;
+         }
+}
+
+@media(max-width:877px) {
+         .box2 {
+                  padding-top: 300px;
+                  width: 80%;
+                  height: 1842px;
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+         }
+
+         .card {
+                  margin-top: 50px;
+                  width: 80%;
+         }
+
+         .cards {
+                  margin-top: 50px;
+                  width: 80%;
+         }
+
+         main {
+
+                  height: 2985px;
+         }
+
+         .main {
+                  flex-direction: column;
+         }
+
+         .komp {
+                  margin-top: 250px;
+
+         }
+
+         .kompp {
+                  margin-top: 250px;
+
+         }
+
+         input {
+                  margin-top: 20px;
+                  width: 80%;
+         }
+
+         textarea {
+                  margin-top: 20px;
+                  width: 80%;
+         }
+
+         .box5 {
+                  height: 1200px;
+         }
+}
